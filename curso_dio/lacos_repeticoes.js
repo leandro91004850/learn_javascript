@@ -5,7 +5,9 @@ let object = {
      propriedade3: 'objeto 3'
     }
 
+var i = 0;
 
-for(i of array){
-    console.log(i);
+while(i <= array.length){
+    console.log(array[i]);
+    i++;
 }
