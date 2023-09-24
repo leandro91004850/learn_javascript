@@ -1,12 +1,11 @@
-let array = ['valor1', 'valor2', 'valor3', 'valor4', 'valor5', 'valor6',];
-let object = {propriedade: 'valor1', propriedade2: 'valor2', propriedade3: 'valor3',}
+let array = ['valor1', 'valor2', 'valor3', 'valor4', 'valor5', 'valor6'];
+let object = {
+    propriedade: 'objeto 1', 
+    propriedade2: 'objeto 2',
+     propriedade3: 'objeto 3'
+    }
 
-/*for(let i = 0; i <= array.length; i++ ){
-    console.log(array);
-}
-*/
 
-
-for(let i in array){
-    console.log(array[i])
+for(i in object){
+    console.log(object[i]);
 }
