@@ -6,6 +6,6 @@ let object = {
     }
 
 
-for(i in object){
-    console.log(object[i]);
+for(i of array){
+    console.log(i);
 }
