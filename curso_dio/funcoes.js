@@ -1,4 +1,4 @@
-function funcao(){
+var funcao = function(){
     var texto= 'executando uma função';
     return texto;
 }
