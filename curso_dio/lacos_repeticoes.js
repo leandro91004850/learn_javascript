@@ -6,7 +6,7 @@ let object = {
     }
 
 
-var i = 0;
+let i = 0;
 
 do{
 

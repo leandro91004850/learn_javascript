@@ -1,6 +1,6 @@
-var jogador1 = 0;
-var jogador2 = 0;
-var placar;
+let jogador1 = 0;
+let jogador2 = 0;
+let placar;
 
 switch (true) {
     case jogador1 > jogador2:
@@ -15,4 +15,4 @@ switch (true) {
         break;
 }
 
-console.log(placar);
+console.log(placar); 
