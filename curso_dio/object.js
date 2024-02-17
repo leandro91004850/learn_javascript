@@ -13,7 +13,7 @@ let objeto = {
     }
 };
 
-//console.log(objeto);
+console.log(objeto);
 
 var valor_array = objeto.valor_objeto;
-console.log(valor_array);
+//console.log(valor_array);
