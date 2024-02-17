@@ -15,4 +15,4 @@ switch (true) {
         break;
 }
 
-console.log(placar); 
+console.log(placar);
