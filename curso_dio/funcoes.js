@@ -5,3 +5,10 @@ let funcao = function(){
 }
 
 console.log(funcao());
+
+// Arrow function 
+const isArrowFunction =() =>{
+    return 2 + 2;
+}
+
+console.log(isArrowFunction());
