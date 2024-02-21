@@ -44,5 +44,10 @@ const filtro_pedido = pedidos.filter((element, index) => {
     return element.bebida === 'Refrigerante';
 });
 
+//console.log(2, filtro_pedido);
 
-console.log(2, filtro_pedido);
+const find_pedido = pedidos.find((element, index) => {
+    return element.nome === 'José'; // ideal para buscar elementos que são únicos
+});
+
+console.log(find_pedido);
