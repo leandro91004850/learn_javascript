@@ -40,10 +40,9 @@ const pedidos = [
   
   //console.log(pedidos);
 
-const filtro_pedido = pedidos.forEach((element, index) => {
-    if(element.bebida == 'Refrigerante'){
-        return element;
-    }
+const filtro_pedido = pedidos.filter((element, index) => {
+    return element.bebida === 'Refrigerante';
 });
 
-console.log(filtro_pedido);
+
+console.log(2, filtro_pedido);
