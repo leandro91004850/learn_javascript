@@ -13,6 +13,7 @@ const notas = [10, 15, 30, 55];
 
 notas.push(12);// inserir
 notas.unshift(15);
+notas.pop()
 
 console.table(arr);
 console.log(arr[3][2][1]);
