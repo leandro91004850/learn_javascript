@@ -11,6 +11,10 @@ const arr = [
 
 const notas = [10, 15, 30, 55];
 
+notas.push(12);// inserir
+notas.unshift(15);
+
 console.table(arr);
 console.log(arr[3][2][1]);
 console.log(Math.max(...notas)); // obter o maior valor, funcionar somente em array 1 dimensão
+console.log(notas);
