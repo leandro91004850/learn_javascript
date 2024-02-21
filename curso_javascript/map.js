@@ -11,14 +11,21 @@ const pedidos = [
       alimento: "Sandubão Vegano",
       bebida: "Suco de Laranja",
     },
-    { id: 29, nome: "Marcio", alimento: "Coxinha", bebida: "Suco de Uva" },
+    { id: 29, 
+        nome: "Marcio", 
+        alimento: "Coxinha", 
+        bebida: "Suco de Uva" },
     {
       id: 33,
       nome: "Isabel",
       alimento: "Sandubão de Picanha",
       bebida: "Refrigerante",
     },
-    { id: 55, nome: "José", alimento: "Pizza", bebida: "Refrigerante" },
+    {
+        id: 55, 
+        nome: "José", 
+        alimento: "Pizza", 
+        bebida: "Refrigerante" },
   ];
   
   /**
@@ -31,4 +38,12 @@ const pedidos = [
     }
   });
   
-  console.log(pedidos);
+  //console.log(pedidos);
+
+const filtro_pedido = pedidos.forEach((element, index) => {
+    if(element.bebida == 'Refrigerante'){
+        return element;
+    }
+});
+
+console.log(filtro_pedido);
