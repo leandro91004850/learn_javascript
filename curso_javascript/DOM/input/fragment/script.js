@@ -6,9 +6,9 @@ const element = document.getElementById("ul"); // assuming ul exists
 const fragment = document.createDocumentFragment();
 const browsers = ["Firefox", "Chrome", "Opera", "Safari"];
 
-browsers.forEach((browser) => {
+browsers.forEach((list) => {
   const li = document.createElement("li");
-  li.textContent = browser;
+  li.textContent = list;
   fragment.appendChild(li);
 });
 
