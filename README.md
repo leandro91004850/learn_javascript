@@ -22,6 +22,8 @@
 
 - Projeto aula javascript: https://github.com/troquatte/curso-javascript  
 
+- documentação javascript(Events) : https://developer.mozilla.org/en-US/docs/Web/API/Element/auxclick_event
+
 - Plataforma para build de softwares angular para multiplataformas: https://docs.nativescript.org/  
 
 * verificar versao node.js
